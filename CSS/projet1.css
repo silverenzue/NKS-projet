@@ -1,0 +1,217 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'arial',serif;
+}
+.navbar{
+    position: absolute !important;
+    width: 100%;
+    z-index:3;
+}
+
+.img{
+    float: left;
+    padding-left: 0;
+    font-size:8px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tun{
+    background: url(../IMAGES/Tun.png);
+    background-size: cover;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:1px solid white;
+}
+
+select{
+    border-radius: 3px;
+    border: 3px;
+    font-size: 11px;
+    background: silver;
+}
+
+.language{
+    background: #ecf0f1;
+    color: #222f3e;
+    padding: 4px 25px 4px 25px;
+    font-size: 14px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+}
+
+.banner{
+    color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.banner-second{
+    background:#222f3e;
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+.banner-content{
+    position:absolute;
+    z-index: 3;
+}
+
+.title{
+    color:#222f3e;
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+    margin-top: 80px;
+}
+
+.div-news{
+    height: 350px;
+    margin-top: 40px;
+}
+
+.button-news{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.number{
+    font-size: 35px;
+}
+
+.label{
+    font-size: 28px;
+}
+
+hr.ligne{
+    width: 65px;
+    height: 2px;
+    color: white;
+    background: white;
+    border:1px solid white;
+    border-radius:1px;
+}
+
+.prev{
+    height: 150px;
+    margin-top: 10px;
+}
+
+.button-prev{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px;
+    outline: none;
+    color: #303952;
+    background-size: cover;
+}
+
+.card-heade{
+    margin-bottom: 2px;
+    background: silver;
+}
+
+#champ{
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    width: 350px;
+    height: 35px;
+    outline:none;
+    background: whitesmoke;
+    padding-left: 10px;
+}
+
+#butt{
+    margin-top: -2px;
+    border: 1.5px solid #34495e;
+    color: white;
+    padding: 6px 15px 6px;
+    background: #596275;
+}
+
+#butt:hover{
+    color: ghostwhite;
+    transition: 0.7s;
+    background-color: #34495e;
+}
+
+.pied{
+    height: 300px;
+    background: #222f3e;
+}
+
+.new{
+    font-size: 25px;
+}
+
+.cont{
+    font-size: 22px;
+}
+
+.boutn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: whitesmoke;
+    font-size: 25px;
+    border: 1px solid whitesmoke;
+}
+
+#fb{
+    color: #2980b9;
+}
+
+#insta{
+    color: #eb3b5a;
+}
+
+#twit{
+    color: #3498db;
+}
+
+#in{
+    color: #227093;
+}
+
+.contact-title{
+    padding-top: 100px;
+}
+
+.copyright{
+    margin-top: 28px;
+    padding-top:10px;
+    margin-bottom: 0px;
+    width: 90%;
+    height: 40px;
+}
+
+.footer-center {
+    height:200px;
+}
